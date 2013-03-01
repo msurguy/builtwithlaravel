@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => $_ENV['MysqlDb'],
-			'username'  => $_ENV['MysqlUser'],
-			'password'  => $_ENV['MysqlPass'],
+			'database'  => "",
+			'username'  => "",
+			'password'  => "",
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

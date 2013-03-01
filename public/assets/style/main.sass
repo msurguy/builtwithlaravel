@@ -1,0 +1,231 @@
+html
+	height: 100%
+	
+body
+	// height: 100%
+	margin: 0
+	padding-bottom: 100px
+	background-color: #f1f1f1
+	text-align: center
+	font-family: 'Ubuntu Light'
+
+header
+	text-align: left
+	width: 100%
+	height: 10% !important
+	background-color: #2F3030
+	position: absolute
+	top: 0
+	left: 0
+	box-shadow: 0px 0px 5px 1px #000
+
+	.logo
+		display: inline-block
+		position: relative
+		top: 13%
+		left: 1%
+
+	.bwl
+		display: inline-block
+		color: #f1f1f1
+		font-family: 'Ubuntu'
+		position: relative
+		left: 2.2%
+		top: 0%
+		font-size: 1.7em
+		text-align: center
+		line-height: 0.8em
+
+		small
+			display: block
+			font-weight: 300
+			font-size: 0.5em
+
+	nav
+		float: right
+		display: inline-block
+		position: absolute
+		right: 2%
+		top: 20%
+		height: 30%
+
+		ul
+			list-style: none
+			display: inline-block
+			width: auto !important
+			height: 100%
+			word-spacing: 0
+			// background-color: #f1f1f1
+			padding: 0
+			border-radius: 5px
+			line-height: 1.5em
+
+			li
+				height: 100%
+				list-style: none
+				display: inline-block
+				margin: 0
+				margin-left: 10px
+				margin-right: 10px
+				padding-left: 5px
+				padding-right: 5px
+
+				a, a:hover
+					font-size: 0.8em
+					font-family: 'Ubuntu'
+					font-weight: 800
+					text-transform: uppercase
+					color: #fb503b
+			li.active
+				background-color: #f1f1f1
+				border-radius: 5px
+				// border-bottom: 2px solid rgba(255, 255, 255, 0.8)
+ 
+a, a:visited, a:hover
+	color: #fb503b
+	text-decoration: none
+	cursor: pointer
+
+h1, h2, h3, h4, h5
+	color: #2F3030
+
+.nobull
+	padding-left: 0
+	list-style: none
+
+	li
+		// display: inline-block
+		width: auto
+
+div#main
+	margin: auto
+	margin-top: 10%
+	width: 65%
+	min-height: 400px
+	text-align: left
+
+	div.mast
+		width: 100%
+		height: 300px
+		margin-bottom: 3%
+		vertical-align: top
+		// background-color: #f0523f
+
+		div.slider
+			float: left
+			// display: block
+			width: 70%
+			height: 100%
+			background-color: rgba(0,0,0,0.6)
+			position: relative
+			top: 0px
+
+
+		div.user
+			float: right
+			width: 30%
+			height: 100%
+			// display: inline-block
+			// background: #f1f1f1
+			background: #aaaaaa
+			background-color: rgba(0,0,0,0.8)
+			position: relative
+			top: 0px
+
+			> *
+				margin-left: 15px
+
+			> #signin
+				// display: inline-block
+				width: 80%
+				text-align: center
+				padding: 10px
+
+				.btn
+					display: inline-block
+					width: 100%
+					padding: 5px
+					border-radius: 5px
+					margin-top: 10px
+					margin-bottom: 10px
+
+
+					> i
+						// display: inline-block
+						float: left
+						line-height: 25px
+						position: relative
+						left: 5%
+				
+				.google
+					background-color: #4787ed
+					color: #fff
+
+				.twitter
+					background-color: #019ad2
+					color: #fff
+
+				.github
+					background-color: #c5c5c5
+					color: #333333
+				
+				.btn:hover
+					box-shadow: inset 0px 0px 2px 1px #000
+
+			> h3
+				margin-bottom: 0
+
+		h1, h2, h3, h4, h5, p
+			color: #fb503b
+
+		p
+			margin: 0
+
+	div.col
+		vertical-align: top
+		text-align: left
+		display: inline-block
+
+	div.col:first-of-type
+		width: 20%
+
+	div.col:last-of-type
+		width: 79%
+
+ul.grid
+	padding: 0
+	margin: 0
+	list-style: none
+	text-align: center
+
+	li
+		display: inline-block
+		margin: 10px
+
+ul.featured
+	vertical-align: top
+
+	li
+		margin-top: 20px
+		margin-bottom: 20px
+		vertical-align: top
+
+		img
+			display: inline-block
+		
+		.info
+			width: auto
+			max-width: 70%
+			display: inline-block
+			margin-left: 2%
+
+			p, h3
+				margin: 0
+	
+	li:not(:last-of-type):after
+		content: '\A'
+		display: block
+		margin-top: 10px
+		height: 1px
+		background-color: #2F3030
+		box-shadow: 0px 0px 1px 0.2px black
