@@ -1,8 +1,6 @@
-html
-	height: 100%
-	
+$orange: #fb503b
+
 body
-	// height: 100%
 	margin: 0
 	padding-bottom: 100px
 	background-color: #f1f1f1
@@ -19,19 +17,24 @@ header
 	left: 0
 	box-shadow: 0px 0px 5px 1px #000
 
-	.logo
+	div.logo
 		display: inline-block
 		position: relative
-		top: 13%
+		top: 20%
 		left: 1%
+
+		img
+			display: inline-block
+			position: relative
+			top: 1em
 
 	.bwl
 		display: inline-block
 		color: #f1f1f1
 		font-family: 'Ubuntu'
 		position: relative
-		left: 2.2%
-		top: 0%
+		left: 12%
+		top: 5%
 		font-size: 1.7em
 		text-align: center
 		line-height: 0.8em
@@ -209,15 +212,22 @@ ul.featured
 		margin-top: 20px
 		margin-bottom: 20px
 		vertical-align: top
+		overflow: auto
 
 		img
+			float: left
+			position: relative
 			display: inline-block
+			top: 0%
 		
 		.info
 			width: auto
 			max-width: 70%
 			display: inline-block
 			margin-left: 2%
+			margin-bottom: 40px
+			position: relative
+			top: 0px
 
 			p, h3
 				margin: 0
@@ -227,5 +237,180 @@ ul.featured
 		display: block
 		margin-top: 10px
 		height: 1px
-		background-color: #2F3030
-		box-shadow: 0px 0px 1px 0.2px black
+		background-color: rgba(0,0,0,0.4)
+		// box-shadow: 0px 0px 1px 0.2px black
+div.pages
+	text-align: center
+	margin-top: 40px
+
+ul.pages
+	margin: auto
+	padding: 8px
+	list-style: none
+
+	li
+		display: inline
+		background-color: rgba(0,0,0,0.2)
+		padding: 5px
+		text-align: center
+
+	li.active
+		font-weight: bold
+		// background-color: #f2f2f2
+
+	li:first-of-type
+		border-top-left-radius: 5px
+		border-bottom-left-radius: 5px
+
+	li:last-of-type
+		border-top-right-radius: 5px
+		border-bottom-right-radius: 5px
+
+
+section.filters
+	width: 100%
+	height: 50px
+	background: #dbdbdb
+	border-radius: 5px
+
+	div.sort
+		float: left
+		display: inline-block
+		width: auto
+		position: relative
+		top: -10%
+		left: 1%
+
+		i
+			margin-left: 5px
+			margin-right: 5px
+
+		>ul
+			display: inline-block
+			list-style: none
+
+			li
+				list-style: none
+				display: inline-block
+				font-family: 'Ubuntu'
+				text-transform: uppercase
+				color: $orange
+				font-size: 0.8em
+				padding: 5px
+				// margin-left: 5px
+				// margin-right: 5px
+
+			li.active
+				background-color: #f2f2f2
+				border-radius: 5px
+	div.search
+		display: inline-block
+		float: right
+		position: relative
+		top: 20%
+		right: 2%
+		width: 20%
+
+		input
+			font-family: 'Ubuntu Light'
+			float: left
+			width: 90%
+			border: none
+			outline: 0
+			background-color: #f2f2f2
+			padding: 5px
+			border-radius: 2.5px
+			padding-left: 30px
+
+		i.icon-search
+			float: left
+			position: absolute
+			left: 5px
+			top: 7px
+
+ul.grid
+	padding: 0
+	list-style: none
+	text-align: left
+	vertical-align: top
+	margin-top: 20px
+
+	>li
+		vertical-align: top
+		background-color: #f7f7f7
+		list-style: none
+		display: inline-block
+		height: 275px
+		// min-height: 300px
+		width: 18%
+		margin: 0.5em
+		text-align: left
+		margin-top: 10px
+		cursor: pointer
+		position: relative
+
+		>*:not(img):not(.stars)
+			margin: 0
+			margin-left: 5px
+		
+		h5
+			display: inline-block
+			width: auto
+			// color: $orange
+		>p
+			display: block
+			content: '\A'
+			width: 100%
+			min-height: 5em
+			margin-top: 5px !important
+			margin-bottom: 5px !important
+			font-size: 10pt
+
+		ul.stars
+			width: 100%
+			display: block
+			background-color: #dbdbdb
+			list-style: none
+			position: absolute
+			bottom: 0
+			padding: 0
+			border-bottom-left-radius: 5px
+			border-bottom-right-radius: 5px
+
+
+			>li
+				// color: $orange
+				width: auto
+				// padding: 0
+				margin: 0
+				display: inline-block
+				padding-top: 10px !important
+				padding-bottom: 10px !important
+
+			>li:not(.votes)
+				width: 5px
+				padding: 4px
+
+			>li.votes
+				color: $orange
+				font-size: 10pt
+				float: right
+				position: relative
+				top: 2.5px
+				right: 5px
+
+			>li.votes.zero
+				color: rgba(0,0,0,0.75)
+
+			>li>i.icon-star
+				color: $orange
+		img
+			display: inline-block
+			max-width: 100%
+			margin: auto
+			border-top-left-radius: 5px
+			border-top-right-radius: 5px
+
+	>li:hover
+		border-radius: 5px
+		box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.4)

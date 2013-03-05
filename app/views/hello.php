@@ -8,10 +8,12 @@
 	</head>
 	<body>
 		<header>
-			<img class="logo" src="assets/images/laravel.png" alt="Built with Laravel">
-			<div class="bwl">
-				<small>built with</small>
-				laravel
+			<div class="logo">
+				<img src="assets/images/laravel.png" alt="Built with Laravel">
+				<div class="bwl">
+					<small>built with</small>
+					laravel
+				</div>
 			</div>
 			<nav>
 				<ul>
@@ -20,6 +22,9 @@
 					</li>
 					<li>
 						<a href="/#new">Recently Added</a>
+					</li>
+					<li>
+						<a href="/grid">View All</a>
 					</li>
 					<li>
 						<a href="/#submit">Submit</a>
@@ -34,20 +39,20 @@
 				</div>
 				<div class="user">
 					<h3>Developer?</h3>
-					<p>Select one of the sign in methods below!</p>
+					<p>Sign in or register with Github below to get started!</p>
 					<div id="signin">
-						<a class="btn google">
+						<a class="btn github">
+							<i class="icon-github-sign"></i>
+							Sign in with Github
+						</a>
+<!-- 						<a class="btn google">
 							<i class="icon-google-plus-sign"></i>
 							Sign with Google
 						</a>
 						<a class="btn twitter">
 							<i class="icon-twitter-sign"></i>
 							Sign in with Twitter
-						</a>
-						<a class="btn github">
-							<i class="icon-github-sign"></i>
-							Sign in with Github
-						</a>
+						</a> -->
 					</div>
 				</div>
 			</div>
@@ -111,43 +116,85 @@
 					<h2>Featured Laravel Projects</h2>
 					<ul class="nobull featured">
 						<li>
-							<img src="http://placehold.it/250x100">
+							<img src="http://placehold.it/250x125">
 							<div class="info">
 								<h3>Project Title</h3>
 								<p>This is a short description about the project.  This is a short description about the project.  This is a short description about the project.  This is a short description about the project.  This is a short description about the project.</p>
 							</div>
 						</li>
 						<li>
-							<img src="http://placehold.it/250x100">
+							<img src="http://placehold.it/250x125">
 							<div class="info">
 								<h3>Project Title</h3>
 								<p>This is a short description about the project.  This is a short description about the project.  This is a short description about the project.  This is a short description about the project.  This is a short description about the project.</p>
 							</div>
 						</li>
 						<li>
-							<img src="http://placehold.it/250x100">
+							<img src="http://placehold.it/250x125">
 							<div class="info">
 								<h3>Project Title</h3>
 								<p>This is a short description about the project.  This is a short description about the project.  This is a short description about the project.  This is a short description about the project.  This is a short description about the project.</p>
 							</div>
 						</li>
 						<li>
-							<img src="http://placehold.it/250x100">
+							<img src="http://placehold.it/250x125">
 							<div class="info">
 								<h3>Project Title</h3>
 								<p>This is a short description about the project.  This is a short description about the project.  This is a short description about the project.  This is a short description about the project.  This is a short description about the project.</p>
 							</div>
 						</li>
 						<li>
-							<img src="http://placehold.it/250x100">
+							<img src="http://placehold.it/250x125">
 							<div class="info">
 								<h3>Project Title</h3>
 								<p>This is a short description about the project.  This is a short description about the project.  This is a short description about the project.  This is a short description about the project.  This is a short description about the project.</p>
 							</div>
 						</li>
 					</ul>
+					<div class="pages">
+						<ul class="pages">
+							<li>
+								<a href="#">
+									<i class="icon-angle-left"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									1
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									2
+								</a>
+							</li>
+							<li class="active">
+								<!-- <a href="#"> -->
+									3
+								<!-- </a> -->
+							</li>
+							<li>
+								<a href="#">
+									4
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									5
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon-angle-right"></i>	
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
+		<footer>
+			
+		</footer>
 	</body>
 </html>
