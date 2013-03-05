@@ -40,20 +40,18 @@
 				<div class="user">
 					<h3>Developer?</h3>
 					<p>Sign in or register with Github below to get started!</p>
-					<div id="signin">
-						<a class="btn github">
-							<i class="icon-github-sign"></i>
-							Sign in with Github
-						</a>
-<!-- 						<a class="btn google">
-							<i class="icon-google-plus-sign"></i>
-							Sign with Google
-						</a>
-						<a class="btn twitter">
-							<i class="icon-twitter-sign"></i>
-							Sign in with Twitter
-						</a> -->
-					</div>
+					<a class="btn github">
+						<i class="icon-github-sign"></i>
+						Sign in with Github
+					</a>
+					<!-- 						<a class="btn google">
+						<i class="icon-google-plus-sign"></i>
+						Sign with Google
+					</a>
+					<a class="btn twitter">
+						<i class="icon-twitter-sign"></i>
+						Sign in with Twitter
+					</a> -->
 				</div>
 			</div>
 			<div class="row">
