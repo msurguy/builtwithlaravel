@@ -1,10 +1,6 @@
 {
 	"require": {
-		"laravel/framework": "4.0.*",
-	        "opauth/opauth": "0.4.3",
-		"opauth/github": "0.1.0",
-		"opauth/twitter": "0.2.2",
-        "illuminate/socialite": "v1.0.5"
+		"laravel/framework": "4.0.*"
 	},
 	"autoload": {
 		"classmap": [
@@ -15,6 +11,9 @@
 			"app/database/seeds",
 			"app/tests/TestCase.php"
 		]
+	},
+	"scripts": {
+		"post-update-cmd": "php artisan optimize"
 	},
 	"minimum-stability": "dev"
 }
