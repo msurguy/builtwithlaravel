@@ -29,6 +29,9 @@
 					<li>
 						<a href="/#submit">Submit</a>
 					</li>
+					<li>
+						<a href="#account">Account <i class="icon-angle-down"></i></a>
+					</li>
 				</ul>
 			</nav>
 		</header>
