@@ -13,9 +13,11 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('home');
 });
 
-Route::get('/grid', function(){
-	return View::make('grid');
+
+Route::get('grid', function()
+{
+	return View::make('gridstrap');
 });
