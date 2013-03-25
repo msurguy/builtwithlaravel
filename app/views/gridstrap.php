@@ -38,6 +38,16 @@
                       <li><a href="#">RECENTLY VIEWED</a></li>
                       <li><a href="#">VIEW ALL</a></li>
                       <li><a href="#">SUBMIT</a></li>
+                      <li class="dropdown">
+	                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">ACCOUNT <b class="caret"></b></a>
+	                      <ul class="dropdown-menu">
+	                        <li><a href="#">Action</a></li>
+	                        <li><a href="#">Another action</a></li>
+	                        <li><a href="#">Something else here</a></li>
+	                        <li class="divider"></li>
+	                        <li><a href="#">Separated link</a></li>
+	                      </ul>
+	                    </li>
                     </ul>
                   </div><!-- /.nav-collapse -->
                 </div>
@@ -77,16 +87,20 @@
 			<div class="row">
 				<div class="span12">
 	            <ul class="thumbnails">
-	              <li class="span3">
+	            	<li class="span3">
 	                <div class="thumbnail">
 	                  	<img src="http://placehold.it/270x140">
 						<div class="caption">
-							<h4>Thumbnail label</h4>
+							<h4><a href="">Thumbnail label</a></h4>
 							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		                  	<div class="stats">
-	                          <a href="#"><i class="icon-eye-open"></i></a> 521
-	                          <a href="#"><i class="icon-heart"></i></a> 114
-	                    	</div>
+		                  	<ul class="stars">
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li class="votes">350 votes</li>
+							</ul>
 						</div>
 	                </div>
 	              </li>
@@ -94,12 +108,16 @@
 	                <div class="thumbnail">
 	                  	<img src="http://placehold.it/270x140">
 						<div class="caption">
-							<h4>Thumbnail label</h4>
+							<h4><a href="">Thumbnail label</a></h4>
 							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		                  	<div class="stats">
-	                          <a href="#"><i class="icon-eye-open"></i></a> 521
-	                          <a href="#"><i class="icon-heart"></i></a> 114
-	                    	</div>
+		                  	<ul class="stars">
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li class="votes">350 votes</li>
+							</ul>
 						</div>
 	                </div>
 	              </li>
@@ -107,12 +125,16 @@
 	                <div class="thumbnail">
 	                  	<img src="http://placehold.it/270x140">
 						<div class="caption">
-							<h4>Thumbnail label</h4>
+							<h4><a href="">Thumbnail label</a></h4>
 							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		                  	<div class="stats">
-	                          <a href="#"><i class="icon-eye-open"></i></a> 521
-	                          <a href="#"><i class="icon-heart"></i></a> 114
-	                    	</div>
+		                  	<ul class="stars">
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li class="votes">350 votes</li>
+							</ul>
 						</div>
 	                </div>
 	              </li>
@@ -120,12 +142,16 @@
 	                <div class="thumbnail">
 	                  	<img src="http://placehold.it/270x140">
 						<div class="caption">
-							<h4>Thumbnail label</h4>
+							<h4><a href="">Thumbnail label</a></h4>
 							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		                  	<div class="stats">
-	                          <a href="#"><i class="icon-eye-open"></i></a> 521
-	                          <a href="#"><i class="icon-heart"></i></a> 114
-	                    	</div>
+		                  	<ul class="stars">
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li class="votes">350 votes</li>
+							</ul>
 						</div>
 	                </div>
 	              </li>
@@ -133,12 +159,16 @@
 	                <div class="thumbnail">
 	                  	<img src="http://placehold.it/270x140">
 						<div class="caption">
-							<h4>Thumbnail label</h4>
+							<h4><a href="">Thumbnail label</a></h4>
 							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		                  	<div class="stats">
-	                          <a href="#"><i class="icon-eye-open"></i></a> 521
-	                          <a href="#"><i class="icon-heart"></i></a> 114
-	                    	</div>
+		                  	<ul class="stars">
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li class="votes">350 votes</li>
+							</ul>
 						</div>
 	                </div>
 	              </li>
@@ -146,12 +176,16 @@
 	                <div class="thumbnail">
 	                  	<img src="http://placehold.it/270x140">
 						<div class="caption">
-							<h4>Thumbnail label</h4>
+							<h4><a href="">Thumbnail label</a></h4>
 							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		                  	<div class="stats">
-	                          <a href="#"><i class="icon-eye-open"></i></a> 521
-	                          <a href="#"><i class="icon-heart"></i></a> 114
-	                    	</div>
+		                  	<ul class="stars">
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li class="votes">350 votes</li>
+							</ul>
 						</div>
 	                </div>
 	              </li>
@@ -159,12 +193,33 @@
 	                <div class="thumbnail">
 	                  	<img src="http://placehold.it/270x140">
 						<div class="caption">
-							<h4>Thumbnail label</h4>
+							<h4><a href="">Thumbnail label</a></h4>
 							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		                  	<div class="stats">
-	                          <a href="#"><i class="icon-eye-open"></i></a> 521
-	                          <a href="#"><i class="icon-heart"></i></a> 114
-	                    	</div>
+		                  	<ul class="stars">
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li class="votes">350 votes</li>
+							</ul>
+						</div>
+	                </div>
+	              </li>
+	              <li class="span3">
+	                <div class="thumbnail">
+	                  	<img src="http://placehold.it/270x140">
+						<div class="caption">
+							<h4><a href="">Thumbnail label</a></h4>
+							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+		                  	<ul class="stars">
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li><i class="icon-star-empty"></i></li>
+								<li class="votes">350 votes</li>
+							</ul>
 						</div>
 	                </div>
 	              </li>
