@@ -47,7 +47,7 @@
 	                        <li class="divider"></li>
 	                        <li><a href="#">Separated link</a></li>
 	                      </ul>
-	                    </li>
+	                  </li>
                     </ul>
                   </div><!-- /.nav-collapse -->
                 </div>

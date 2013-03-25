@@ -38,6 +38,16 @@
                       <li><a href="#">RECENTLY VIEWED</a></li>
                       <li><a href="#">VIEW ALL</a></li>
                       <li><a href="#">SUBMIT</a></li>
+                      <li class="dropdown">
+	                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">ACCOUNT <b class="caret"></b></a>
+	                      <ul class="dropdown-menu">
+	                        <li><a href="#">Action</a></li>
+	                        <li><a href="#">Another action</a></li>
+	                        <li><a href="#">Something else here</a></li>
+	                        <li class="divider"></li>
+	                        <li><a href="#">Separated link</a></li>
+	                      </ul>
+	                  </li>
                     </ul>
                   </div><!-- /.nav-collapse -->
                 </div>
@@ -45,7 +55,43 @@
             </div>
 		<div class="container">
 			<div class="row">
-				<div class="span2 offset1">
+				<div class="span8">
+					<div class="hero-unit home-head">
+					  <div id="myCarousel" class="carousel slide">
+					    <ol class="carousel-indicators">
+					      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					      <li data-target="#myCarousel" data-slide-to="1"></li>
+					      <li data-target="#myCarousel" data-slide-to="2"></li>
+					    </ol>
+					    <!-- Carousel items -->
+					    <div class="carousel-inner">
+					      <div class="active item"><img src="http://placehold.it/740x200"></div>
+					      <div class="item"><img src="http://placehold.it/740x200"></div>
+					      <div class="item"><img src="http://placehold.it/740x200"></div>
+					    </div>
+					    <!-- Carousel nav -->
+					    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+					    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+					  </div>
+					  
+					</div>
+				</div>
+				<div class="span4">
+					<div class="hero-unit home-head">
+					  <h3>Developer?</h3>
+					  <p>Please sign in or register with Github below</p>
+					  <p>
+					    <a class="btn btn-primary btn-large btn-block">
+					      <i class="icon-github"></i> Sign in with Github
+					    </a>
+					  </p>
+					</div>
+				</div>
+			</div>
+			
+							
+			<div class="row">
+				<div class="span2">
 					<h3>Tags</h3>
 					<ul class="unstyled">
 						<li><a href="">Blog</a></li>
@@ -54,7 +100,7 @@
 						<li><a href="">eCommerce</a></li>
 					</ul>
 				</div>
-				<div class="span8">
+				<div class="span10">
 					<h3>Featured Laravel Projects</h3>
 					<hr>
 					<ul class="media-list">
